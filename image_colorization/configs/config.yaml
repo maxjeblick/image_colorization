@@ -1,0 +1,20 @@
+name: image_colorization
+
+# Data Paths
+root_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets
+train_image_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/stage_1_train_images
+valid_image_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/stage_1_train_images
+test_image_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/stage_1_test_images
+weights_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/weights/
+predictions_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/predictions
+tensorboard_fp: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/graph
+
+classification_model_file: /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/weights/xception_classifiaction.hdf5
+pneumonia_df:  /Users/macuni/PycharmProjects/rsna_penumonia_detection/assets/stage_1_train_labels.csv
+
+# Model Params
+img_size : 128
+model_name: xception
+only_pneumonia: True
+num_output_cannels: 3
+num_filters: 18

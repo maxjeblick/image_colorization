@@ -1,0 +1,19 @@
+name: rsna_pneumonia
+
+# Data Paths
+root_fp: /content/lesson3-data
+train_image_fp: /content/lesson3-data/stage_1_train_images
+test_image_fp: /content/lesson3-data/stage_1_test_images
+weights_fp: /content/lesson3-data/
+predictions_fp: /content/lesson3-data
+tensorboard_fp: /content/lesson3-data
+
+classification_model_file: /content/lesson3-data/xception_classifiaction.hdf5
+pneumonia_df: /content/lesson3-data/stage_1_train_labels.csv
+
+# Model Params
+img_size : 128
+model_name: xception
+only_pneumonia: True
+num_output_cannels: 3
+num_filters: 18
