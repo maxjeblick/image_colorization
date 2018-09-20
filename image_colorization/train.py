@@ -25,8 +25,6 @@ TRAIN_IMAGE_DIR = params.params['train_image_fp']
 VALID_IMAGE_DIR = params.params['valid_image_fp']
 WEIGHTS_DIR = params.params['weights_fp']
 TENSORBOARD_DIR = params.params['tensorboard_fp']
-ONLY_PNEUMONIA = params.params['only_pneumonia']
-PNEUMONIA_DF = params.params['pneumonia_df']
 #############################################################
 BATCH_SIZE = 12
 LR = 0.0002  # 0.001 is default
