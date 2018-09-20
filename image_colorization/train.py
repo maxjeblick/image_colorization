@@ -17,7 +17,7 @@ from image_colorization.model.unets import build_unet_model
 
 from image_colorization.model.custom_losses import bce_dice_loss, focal_dice_loss
 from image_colorization.model.lovasz_hinge_loss import lovasz_loss
-from image_colorization.utils.generic_utils import LoadParameters, get_model_and_preprocessor, get_pneumonia_locations
+from image_colorization.utils.generic_utils import LoadParameters, get_model_and_preprocessor
 
 params = LoadParameters()
 ROOT_DIR = params.params['root_fp']
